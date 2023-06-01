@@ -147,8 +147,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          # Тут вместо username должен быть ваш логин на Docker Hub
           tags: rzr175/taski_gateway:latest
-          # устанавливаем тег latest, чтобы потом
-          # на сервере и в docker-compose.yml не указывать версию
-          tags: rzr175/taski_backend:latest
